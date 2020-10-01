@@ -94,3 +94,15 @@
 
 
 
+##intent: meteo
+- Quel temps fait-il dehors ?
+- Quelle température fait il aujourd'hui ?
+- Quelles sont les prévisions pour demain ?
+- Quelles sont les prévisions pour la semaine prochaine ?
+- Quelle est la météo pour cette semaine ?
+
+
+##intent: blague
+- Raconte moi une joke
+- Dis moi une blague
+- Est-ce que tu peux me raconter une blague ?

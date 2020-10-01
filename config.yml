@@ -17,8 +17,6 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
 
-
-
 #  - name: SpacyNLP
 #    model: "fr_core_news_md"
 #  - name: SpacyTokenizer

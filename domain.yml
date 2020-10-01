@@ -12,12 +12,15 @@ intents:
 - enfants
 - divorce
 - tribunal
+- meteo
+- blague
+
 entities:
 - location
+
 responses:
   utter_greet:
-  - text: Allo! Je suis le super chatbot de la SOQUIJ ! :) Comment je peux vous aider
-      ?
+  - text: Allo! Je suis le super chatbot de la SOQUIJ ! :) Comment je peux vous aider ?
   utter_aurevoir:
   - text: À bientôt
   utter_jesuisunrobot:
@@ -37,3 +40,8 @@ responses:
   utter_tribunal:
   - text: Merci pour votre question. Vous pouvez trouver des informations sur les
       tribunaux ici https://juridiqc.gouv.qc.ca/separation-et-divorce/tribunal/
+  utter_meteo:
+  - text: Pouvez vous regarder par la fenetre ?! :)
+
+  utter_blague:
+  - text: J'ai une blague sur les magasins Mais elle a pas supermarché

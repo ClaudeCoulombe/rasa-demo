@@ -5,8 +5,20 @@
 ## au revoir
 * aurevoir
   - utter_aurevoir
-
+  
+## meteo
+* meteo
+  - utter_meteo
+  
+## blague
+* blague
+  - utter_blague
+  
 ## homepage
+* homepage
+  - utter_homepage
+
+## ask_homepage
 * greet
   - utter_greet
 * homepage
@@ -14,7 +26,7 @@
 * affirm
   - utter_aurevoir
 
-## domicile_biens_argent
+## ask_domicile_biens_argent
 * greet
   - utter_greet
 * domicile_biens_argent
@@ -22,7 +34,7 @@
 * affirm
   - utter_aurevoir
 
-## enfants
+## ask_enfants
 * greet
   - utter_greet
 * enfants
@@ -30,7 +42,7 @@
 * affirm
   - utter_aurevoir
 
-# divorce
+# ask_divorce
 * greet
   - utter_greet
 * divorce
@@ -38,11 +50,19 @@
 * affirm
   - utter_aurevoir
 
-## tribunal
+## ask_tribunal
 * greet
   - utter_greet
 * tribunal
   - utter_tribunal
+* affirm
+  - utter_aurevoir
+  
+## ask_meteo
+* greet
+  - utter_greet
+* meteo
+  - utter_meteo
 * affirm
   - utter_aurevoir
 
