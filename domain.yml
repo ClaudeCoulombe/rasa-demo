@@ -1,32 +1,39 @@
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- aurevoir
+- affirm
+- deny
+- jesuisunrobot
+- homepage
+- domicile_biens_argent
+- enfants
+- divorce
+- tribunal
+entities:
+- location
+responses:
+  utter_greet:
+  - text: Allo! Je suis le super chatbot de la SOQUIJ ! :) Comment je peux vous aider
+      ?
+  utter_aurevoir:
+  - text: À bientôt
+  utter_jesuisunrobot:
+  - text: Je suis un robot développé par la SOQUIJ
+  utter_homepage:
+  - text: Avez-vous des questions concernant les procédures pour un divorce, la garde
+      de vos enfants ou le partage des biens après une séparation ?
+  utter_domicile_biens_argent:
+  - text: Merci pour votre question. Vous pouvez trouver des informations concernant
+      votre demande en cliquant sur https://juridiqc.gouv.qc.ca/separation-et-divorce/domicile-biens-argent/domicile-familial/
+  utter_enfants:
+  - text: Merci pour votre question. Vous pouvez trouver des informations concernat
+      les enfants en cliquant sur https://juridiqc.gouv.qc.ca/separation-et-divorce/enfants/
+  utter_divorce:
+  - text: Merci pour votre question. Vous pouvez trouver des informations pour une
+      demande de divorce en cliquant sur https://juridiqc.gouv.qc.ca/en/separation-and-divorce/
+  utter_tribunal:
+  - text: Merci pour votre question. Vous pouvez trouver des informations sur les
+      tribunaux ici https://juridiqc.gouv.qc.ca/separation-et-divorce/tribunal/

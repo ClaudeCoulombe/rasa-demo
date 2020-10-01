@@ -1,12 +1,16 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: fr  # your two-letter language code
+
 pipeline:
-  - name: WhitespaceTokenizer
+  - name: SpacyNLP
+    model: "fr_core_news_md"
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
-  - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer #For words
+  - name: CountVectorsFeaturizer #For characters
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
