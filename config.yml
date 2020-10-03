@@ -2,28 +2,12 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: fr  # your two-letter language code
 
-#pipeline:
-#  - name: WhitespaceTokenizer
-#  - name: RegexFeaturizer
-#  - name: LexicalSyntacticFeaturizer
-#  - name: CountVectorsFeaturizer
-#  - name: CountVectorsFeaturizer
-#    analyzer: "char_wb"
-#    min_ngram: 1
-#    max_ngram: 4
-#  - name: DIETClassifier
-#    epochs: 100
-#  - name: EntitySynonymMapper
-#  - name: ResponseSelector
-#    epochs: 100
-
-  - name: SpacyNLP
-  - name: SpacyTokenizer
-  - name: SpacyFeaturizer
+pipeline:
+  - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
-  - name: CountVectorsFeaturizer #For words
-  - name: CountVectorsFeaturizer #For characters
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
@@ -32,6 +16,23 @@ language: fr  # your two-letter language code
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
+
+#  - name: SpacyNLP
+#    model: "fr_core_news_md"
+#  - name: SpacyTokenizer
+#  - name: SpacyFeaturizer
+#  - name: RegexFeaturizer
+#  - name: LexicalSyntacticFeaturizer
+#  - name: CountVectorsFeaturizer #For words
+#  - name: CountVectorsFeaturizer #For characters
+#    analyzer: "char_wb"
+#    min_ngram: 1
+#    max_ngram: 4
+#  - name: DIETClassifier
+#    epochs: 100
+#  - name: EntitySynonymMapper
+#  - name: ResponseSelector
+#    epochs: 100
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
