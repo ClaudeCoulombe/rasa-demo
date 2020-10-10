@@ -35,8 +35,12 @@ responses:
   - text: Merci pour votre question. Vous pouvez trouver des informations concernat
       les enfants en cliquant sur https://juridiqc.gouv.qc.ca/separation-et-divorce/enfants/
   utter_divorce:
-  - text: Merci pour votre question. Vous pouvez trouver des informations pour une
-      demande de divorce en cliquant sur https://juridiqc.gouv.qc.ca/en/separation-and-divorce/
+  - text: Merci pour votre question. Vous pouvez trouver des informations pour une demande de divorce en cliquant sur https://juridiqc.gouv.qc.ca/en/separation-and-divorce/
+    buttons:
+      - title: Divorce
+        payload: /divorce
+      - title: Non
+        payload: /deny
   utter_tribunal:
   - text: Merci pour votre question. Vous pouvez trouver des informations sur les
       tribunaux ici https://juridiqc.gouv.qc.ca/separation-et-divorce/tribunal/
