@@ -51,6 +51,10 @@
 - Avez-vous des conseils à me donner pour mon problème ?
 - A quoi servez-vous ?
 - Quels sont les solutions que vous avez pour moi ?
+- Aidez moi
+- Quoi faire ?
+- Comment chercher de l'information ?
+- Apportez moi des solutions 
 
 
 ##intent:domicile_biens_argent
@@ -83,7 +87,7 @@
 - Élaboration d'un plan parental lors d'une séparation
 
 ##intent: tribunal
-- Comment fontionne la cour de justice au [Québec](location)?
+- Comment fontionne la cour de justice au Québec ?
 - Quelles sont les étapes pour entamer une procédure judiciaire?
 - Comment être représenté par un avocat?
 - Comment on agir seule sans avocat?

@@ -26,8 +26,16 @@ responses:
   utter_jesuisunrobot:
   - text: Je suis un robot développé par la SOQUIJ
   utter_homepage:
-  - text: Avez-vous des questions concernant les procédures pour un divorce, la garde
-      de vos enfants ou le partage des biens après une séparation ?
+  - text: "Vous pouvez avoir plus d'informations concernant les procédures pour :"
+    buttons:
+      - title: Le divorce
+        payload: /divorce
+      - title: La garde des enfants
+        payload: /enfants
+      - title: Le partage des biens
+        payload: /domicile_biens_argent
+
+
   utter_domicile_biens_argent:
   - text: Merci pour votre question. Vous pouvez trouver des informations concernant
       votre demande en cliquant sur https://juridiqc.gouv.qc.ca/separation-et-divorce/domicile-biens-argent/domicile-familial/
@@ -35,12 +43,8 @@ responses:
   - text: Merci pour votre question. Vous pouvez trouver des informations concernat
       les enfants en cliquant sur https://juridiqc.gouv.qc.ca/separation-et-divorce/enfants/
   utter_divorce:
-  - text: Merci pour votre question. Vous pouvez trouver des informations pour une demande de divorce en cliquant sur https://juridiqc.gouv.qc.ca/en/separation-and-divorce/
-    buttons:
-      - title: Divorce
-        payload: /divorce
-      - title: Non
-        payload: /deny
+  - text: Merci pour votre question. Vous souhaitez avoir des informations sur informations pour une demande de divorce en cliquant sur https://juridiqc.gouv.qc.ca/en/separation-and-divorce/
+
   utter_tribunal:
   - text: Merci pour votre question. Vous pouvez trouver des informations sur les
       tribunaux ici https://juridiqc.gouv.qc.ca/separation-et-divorce/tribunal/
@@ -48,4 +52,4 @@ responses:
   - text: Pouvez vous regarder par la fenetre ?! :)
 
   utter_blague:
-  - text: J'ai une blague sur les magasins Mais elle a pas supermarché
+  - text: J'ai une blague sur les magasins mais elle a pas supermarché
