@@ -168,7 +168,3 @@ responses:
         payload: "/mediation"
       - title: "Domicile, biens et argent"
         payload: "/domicile"
-
-  utter_domicile_biens_argent:
-  - text: Merci pour votre question. Vous pouvez trouver des informations concernant
-      votre demande [en cliquant ici](https://juridiqc.gouv.qc.ca/separation-et-divorce/domicile-biens-argent/domicile-familial/)
