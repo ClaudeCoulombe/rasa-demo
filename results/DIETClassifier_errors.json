@@ -1,114 +1,99 @@
 [
   {
+    "text": "Comment être représenté par un avocat?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "avocat",
+        "start": 31,
+        "end": 37,
+        "value": "avec",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
     "text": "Comment on agir seule sans avocat?",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "avocat",
         "start": 22,
-        "end": 26,
-        "value": "sans",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Qu’est-ce que ça implique d'agir seul sans avocat ?",
-    "entities": [
-      {
-        "start": 38,
-        "end": 49,
-        "value": "sans",
-        "entity": "avocat"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "avocat",
-        "start": 33,
-        "end": 37,
+        "end": 33,
         "value": "sans",
         "extractor": "DIETClassifier",
         "processors": [
           "EntitySynonymMapper"
         ]
-      },
-      {
-        "entity": "avocat",
-        "start": 38,
-        "end": 42,
-        "value": "sans",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Préparer le protocole de l'instance avec un avocat",
-    "entities": [
-      {
-        "start": 44,
-        "end": 50,
-        "value": "avec",
-        "entity": "avocat"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Comment on agir seule sans avocat?",
-    "entities": [
-      {
-        "start": 22,
-        "end": 33,
-        "value": "sans",
-        "entity": "avocat"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "avocat",
-        "start": 22,
-        "end": 26,
-        "value": "sans",
-        "extractor": "DIETClassifier"
       }
     ]
   },
   {
     "text": "Quelles sont les clés pour bien choisir son avocat ?",
-    "entities": [
+    "entities": [],
+    "predicted_entities": [
       {
+        "entity": "avocat",
         "start": 44,
         "end": 50,
         "value": "avec",
-        "entity": "avocat"
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
-    ],
-    "predicted_entities": []
+    ]
   },
   {
     "text": "Comment l’avocat facture-t-il ses services ?",
-    "entities": [
+    "entities": [],
+    "predicted_entities": [
       {
+        "entity": "avocat",
         "start": 10,
         "end": 16,
         "value": "avec",
-        "entity": "avocat"
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
-    ],
-    "predicted_entities": []
+    ]
   },
   {
     "text": "Comment être représenté par un avocat?",
-    "entities": [
+    "entities": [],
+    "predicted_entities": [
       {
+        "entity": "avocat",
         "start": 31,
         "end": 37,
         "value": "avec",
-        "entity": "avocat"
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
-    ],
-    "predicted_entities": []
+    ]
+  },
+  {
+    "text": "Quelles sont les clés pour bien choisir son avocat ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "avocat",
+        "start": 44,
+        "end": 50,
+        "value": "avec",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
   },
   {
     "text": "Informations sur les procédures judiciares pour conjoints",
@@ -133,5 +118,18 @@
       }
     ],
     "predicted_entities": []
+  },
+  {
+    "text": "Comment s'entendre sans avoir recours aux tribunaux ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "avocat",
+        "start": 19,
+        "end": 23,
+        "value": "sans",
+        "extractor": "DIETClassifier"
+      }
+    ]
   }
 ]

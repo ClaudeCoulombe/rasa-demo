@@ -1,34 +1,50 @@
 [
   {
-    "text": "Quelles sont les étapes pour entamer une procédure judiciaire?",
+    "text": "Comment fontionne la cour de justice au Québec?",
     "intent": "tribunal",
     "intent_prediction": {
       "name": "fonctionnement_de_la_cour",
-      "confidence": 0.37144753336906433
+      "confidence": 0.35619041323661804
+    }
+  },
+  {
+    "text": "Comment on agir seule sans avocat?",
+    "intent": "tribunal",
+    "intent_prediction": {
+      "name": "avec_ou_sans_avocat_a_la_cour",
+      "confidence": 0.6380960941314697
+    }
+  },
+  {
+    "text": "questions-réponses sur la langue dans le milieu juridique",
+    "intent": "tribunal",
+    "intent_prediction": {
+      "name": "fonctionnement_de_la_cour",
+      "confidence": 0.7780892252922058
     }
   },
   {
     "text": "Quelles sont les clés pour bien choisir son avocat ?",
     "intent": "tribunal",
     "intent_prediction": {
-      "name": "procedures_judiciares",
-      "confidence": 0.35561999678611755
+      "name": "avec_ou_sans_avocat_a_la_cour",
+      "confidence": 0.34750768542289734
     }
   },
   {
     "text": "Comment l’avocat facture-t-il ses services ?",
     "intent": "tribunal",
     "intent_prediction": {
-      "name": "procedures_judiciares",
-      "confidence": 0.4744001030921936
+      "name": "avec_ou_sans_avocat_a_la_cour",
+      "confidence": 0.4666491150856018
     }
   },
   {
-    "text": "Comment fontionne la cour de justice au Québec ?",
+    "text": "Quelles sont les étapes pour entamer une procédure judiciaire ?",
     "intent": "fonctionnement_de_la_cour",
     "intent_prediction": {
       "name": "tribunal",
-      "confidence": 0.2876531481742859
+      "confidence": 0.33359235525131226
     }
   },
   {
@@ -36,7 +52,7 @@
     "intent": "fonctionnement_de_la_cour",
     "intent_prediction": {
       "name": "tribunal",
-      "confidence": 0.3047214150428772
+      "confidence": 0.3597084879875183
     }
   },
   {
@@ -44,47 +60,15 @@
     "intent": "fonctionnement_de_la_cour",
     "intent_prediction": {
       "name": "tribunal",
-      "confidence": 0.31252357363700867
-    }
-  },
-  {
-    "text": "questions-réponses sur la langue dans le milieu juridique",
-    "intent": "fonctionnement_de_la_cour",
-    "intent_prediction": {
-      "name": "tribunal",
-      "confidence": 0.32109782099723816
+      "confidence": 0.31114986538887024
     }
   },
   {
     "text": "Quelles sont les clés pour bien choisir son avocat ?",
     "intent": "fonctionnement_de_la_cour",
     "intent_prediction": {
-      "name": "procedures_judiciares",
-      "confidence": 0.35561999678611755
-    }
-  },
-  {
-    "text": "Comment on agir seule sans avocat?",
-    "intent": "avec_ou_sans_avocat_a_la_cour",
-    "intent_prediction": {
-      "name": "tribunal",
-      "confidence": 0.25154197216033936
-    }
-  },
-  {
-    "text": "Quelles sont les clés pour bien choisir son avocat ?",
-    "intent": "avec_ou_sans_avocat_a_la_cour",
-    "intent_prediction": {
-      "name": "procedures_judiciares",
-      "confidence": 0.35561999678611755
-    }
-  },
-  {
-    "text": "Comment l’avocat facture-t-il ses services ?",
-    "intent": "avec_ou_sans_avocat_a_la_cour",
-    "intent_prediction": {
-      "name": "procedures_judiciares",
-      "confidence": 0.4744001030921936
+      "name": "avec_ou_sans_avocat_a_la_cour",
+      "confidence": 0.34750768542289734
     }
   },
   {
@@ -92,23 +76,23 @@
     "intent": "avec_ou_sans_avocat_a_la_cour",
     "intent_prediction": {
       "name": "tribunal",
-      "confidence": 0.3047214150428772
+      "confidence": 0.3597084879875183
     }
   },
   {
     "text": "Comment fontionne la cour de justice au Québec?",
     "intent": "procedures_judiciares",
     "intent_prediction": {
-      "name": "tribunal",
-      "confidence": 0.2876531481742859
+      "name": "fonctionnement_de_la_cour",
+      "confidence": 0.35619041323661804
     }
   },
   {
     "text": "Quelles sont les étapes pour entamer une procédure judiciaire?",
     "intent": "procedures_judiciares",
     "intent_prediction": {
-      "name": "fonctionnement_de_la_cour",
-      "confidence": 0.37144753336906433
+      "name": "tribunal",
+      "confidence": 0.33359235525131226
     }
   },
   {
@@ -116,15 +100,23 @@
     "intent": "procedures_judiciares",
     "intent_prediction": {
       "name": "tribunal",
-      "confidence": 0.31252357363700867
+      "confidence": 0.31114986538887024
+    }
+  },
+  {
+    "text": "Je veux me séparer de mon conjoint",
+    "intent": "divorce",
+    "intent_prediction": {
+      "name": "jesuisunrobot",
+      "confidence": 0.28041690587997437
     }
   },
   {
     "text": "usage du domicile familial",
     "intent": "domicile_biens_argent",
     "intent_prediction": {
-      "name": "domicile",
-      "confidence": 0.5361025929450989
+      "name": "affirm",
+      "confidence": 0.2308453768491745
     }
   },
   {
@@ -132,7 +124,7 @@
     "intent": "domicile_biens_argent",
     "intent_prediction": {
       "name": "domicile",
-      "confidence": 0.7517344951629639
+      "confidence": 0.2639637589454651
     }
   },
   {
@@ -140,55 +132,95 @@
     "intent": "domicile_biens_argent",
     "intent_prediction": {
       "name": "domicile",
-      "confidence": 0.8144339323043823
+      "confidence": 0.26127415895462036
     }
   },
   {
     "text": "Récupérer ses meubles et effets personnels laissés dans le domicile",
     "intent": "domicile_biens_argent",
     "intent_prediction": {
-      "name": "domicile",
-      "confidence": 0.3408168852329254
+      "name": "avec_ou_sans_avocat_a_la_cour",
+      "confidence": 0.2256649136543274
     }
   },
   {
     "text": "Qui peut rester dans le domicile familial ?",
     "intent": "domicile_biens_argent",
     "intent_prediction": {
-      "name": "domicile",
-      "confidence": 0.7223206758499146
+      "name": "affirm",
+      "confidence": 0.22855161130428314
     }
   },
   {
-    "text": "Comment séparer les biens lors d'une séparation ?",
+    "text": "Qui peut rester dans le domicile familial ?",
     "intent": "domicile",
     "intent_prediction": {
-      "name": "maintien_du_niveau_de_vie",
-      "confidence": 0.6172589659690857
+      "name": "affirm",
+      "confidence": 0.22855161130428314
     }
   },
   {
     "text": "Cartes de crédit communes : quels sont vos droits en cas de séparation ?",
-    "intent": "sante_education_religion_voyage",
+    "intent": "maintien_du_niveau_de_vie",
     "intent_prediction": {
-      "name": "maintien_du_niveau_de_vie",
-      "confidence": 0.580355167388916
+      "name": "sante_education_religion_voyage",
+      "confidence": 0.31386154890060425
+    }
+  },
+  {
+    "text": "Comment séparer les biens lors d'une séparation ?",
+    "intent": "maintien_du_niveau_de_vie",
+    "intent_prediction": {
+      "name": "domicile",
+      "confidence": 0.21952617168426514
     }
   },
   {
     "text": "Cartes de crédit communes : quels sont vos droits en cas de séparation ?",
     "intent": "pension_alimentaire",
     "intent_prediction": {
-      "name": "maintien_du_niveau_de_vie",
-      "confidence": 0.580355167388916
+      "name": "sante_education_religion_voyage",
+      "confidence": 0.31386154890060425
     }
   },
   {
     "text": "merci",
-    "intent": "affirm",
+    "intent": "aurevoir",
     "intent_prediction": {
-      "name": "aurevoir",
-      "confidence": 0.6198060512542725
+      "name": "affirm",
+      "confidence": 0.41416019201278687
+    }
+  },
+  {
+    "text": "C'est quoi la soquij",
+    "intent": "soquij",
+    "intent_prediction": {
+      "name": "homepage",
+      "confidence": 0.23824664950370789
+    }
+  },
+  {
+    "text": "C'est qui la soquij",
+    "intent": "soquij",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3839273452758789
+    }
+  },
+  {
+    "text": "soquij",
+    "intent": "soquij",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3819429278373718
+    }
+  },
+  {
+    "text": "pourquoi soquij",
+    "intent": "soquij",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9262436032295227
     }
   }
 ]

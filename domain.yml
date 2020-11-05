@@ -137,36 +137,38 @@ responses:
   - text: Je suis un robot développé par la [SOQUIJ](https://soquij.qc.ca/)
 
   utter_homepage:
-  - text: Avez-vous des questions concernant les procédures pour un divorce, la garde
-      de vos enfants ou le partage des biens après une séparation ?
-    - buttons:
-      - payload: /divorce
-        title: Divorce
-      - payload: /garde
-        title: Garde des enfants
-      - payload: /biens_et_argent
-        title: Partage des biens
+  - text: Avez-vous des questions concernant les procédures pour un divorce, la garde de vos enfants ou le partage desa biens ?
+    buttons:
+      - title: "Divorce"
+        payload: "/divorce"
+      - title: "Garde des enfants"
+        payload: "/garde"
+      - title: "Partage des biens"
+        payload: "/biens_et_argent"
 
   utter_meteo:
-  - text: Pouvez vous regarder par la fenetre ?! :)
+  - text: Vous pouvez trouver les prévisions [ici](https://www.google.com/search?q=google+meteo+montreal)
 
   utter_blague:
-  - text: J'ai une blague sur les magasins Mais elle a pas supermarché
+  - text: J'ai une blague sur les magasins mais elle a pas supermarché
 
   utter_soquij:
   - text: SOQUIJ relève du ministre de la Justice du Québec et elle assure son autofinancement par la vente de ses produits et services. Vous trouverez plus d'informations [en cliquant ici](https://soquij.qc.ca/fr/a-propos)
 
   utter_out_of_scope:
-  - text: Désolé, je ne suis pas sur d'avoir compris. Vous voulez avoir plus d'information
-    concernant quel sujet..
-  - buttons:
-    - payload: /tribunal
-      title: Tribunaux
-    - payload: /enfants
-      title: Enfants
-    - payload: /divorce
-      title: Divorce
-    - payload: /enfants
-      title: Mediation
-    - payload: /domicile
-      title: Domicile, biens et argent
+  - text: Désolé, je ne suis pas sur d'avoir compris. Vous voulez avoir plus d'information concernant quel sujet..
+    buttons:
+      - title: "Tribunaux"
+        payload: "/tribunal"
+      - title: "Enfants"
+        payload: "/enfants"
+      - title: "Divorce"
+        payload: "/divorce"
+      - title: "Médiation"
+        payload: "/mediation"
+      - title: "Domicile, biens et argent"
+        payload: "/domicile"
+
+  utter_domicile_biens_argent:
+  - text: Merci pour votre question. Vous pouvez trouver des informations concernant
+      votre demande [en cliquant ici](https://juridiqc.gouv.qc.ca/separation-et-divorce/domicile-biens-argent/domicile-familial/)
