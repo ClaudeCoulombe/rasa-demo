@@ -1,6 +1,4 @@
-
-#################      TRIBUNAL       #################
-## demande_tribunal
+## greet + tribunal + aurevoir
 * greet
   - utter_greet
 * tribunal
@@ -8,12 +6,12 @@
 * affirm
   - utter_aurevoir
 
-## demande_tribunal
+## tribunal
 * tribunal
   - utter_tribunal
   
 
-## demande tribunal agir avec un avocat a la cour
+## greet + tribunal agir avec un avocat a la cour + aurevoir
 * greet
   - utter_greet
 * avec_ou_sans_avocat_a_la_cour{"avocat": "avec"}
@@ -21,7 +19,7 @@
 * affirm
   - utter_aurevoir
 
-## demande tribunal agir sans un avocat a la cour
+## greet + tribunal agir sans un avocat a la cour + aurevoir
 * greet
   - utter_greet
 * avec_ou_sans_avocat_a_la_cour{"avocat": "sans"}
@@ -29,7 +27,7 @@
 * affirm
   - utter_aurevoir
 
-## demande tribunal procedures judiciaires conjoitns
+## greet + tribunal procedures judiciaires conjoitns + aurevoir
 * greet
   - utter_greet
 * procedures_judiciaires{"relation": "conjoints"}
@@ -37,17 +35,15 @@
 * affirm
   - utter_aurevoir
 
-## demande tribunal procedures judiciaires maries
+## greet + tribunal procedures judiciaires maries + aurevoir
 * greet
   - utter_greet
 * procedures_judiciaires{"relation": "maries"}
   - utter_procedures_judiciaires_maries
 * affirm
   - utter_aurevoir
-##########################################################
 
-#################      MEDIATION       #################
-## demande mediation
+## greet + mediation
 * greet
   - utter_greet
 * mediation
@@ -55,13 +51,13 @@
 * affirm
   - utter_aurevoir
 
-##demande mediation
+## mediation
 * mediation
   - utter_mediation
 
-#################      DIVORCE       #################
 
-## demande_divorce
+
+## greet + divorce + aurevoir
 * greet
   - utter_greet
 * divorce
@@ -69,13 +65,12 @@
 * affirm
   - utter_aurevoir
 
-## demande divorce
+## divorce
 * divorce
   - utter_divorce
 
-#################      DOMICILE, BIENS ET ARGENT       #################
 
-  ## ask_domicile_biens_argent
+  ## greet + domicile, biens et argent + aurevoir
 * greet
   - utter_greet
 * domicile_biens_argent
@@ -83,11 +78,11 @@
 * affirm
   - utter_aurevoir
 
-## demande domicile
+## domicile
 * domicile
   - utter_domicile
 
-## demande biens et argent
+## greet + biens et argent
 * greet
   - utter_greet
 * biens_et_argent
@@ -95,7 +90,7 @@
 * affirm
   - utter_aurevoir
 
-## demande de maitien du niveau de vie
+## greet + maitien du niveau de vie + aurevoir
 * greet
   - utter_greet
 * maintien_du_niveau_de_vie
@@ -103,9 +98,9 @@
 * affirm
   - utter_aurevoir
 
-#################      ENFANTS      #################
 
-## demande_enfants
+
+## greet + enfants + aurevoir
 * greet
   - utter_greet
 * enfants
@@ -113,11 +108,11 @@
 * affirm
   - utter_aurevoir
 
-## demande garde
+## greet + garde + aurevoir
 * garde
   - utter_garde
 
-## demande sante education religion et voyage
+## greet + ante education religion et voyage + aurevoir
 * greet
   - utter_greet
 * sante_education_religion_voyage
@@ -125,11 +120,11 @@
 * affirm
   - utter_aurevoir
 
-## demande sante education religion voyage
+## sante education religion voyage
 * sante_education_religion_voyage
   - utter_sante_education_religion_voyage
 
-## demande de pension alimentaire
+## greet + de pension alimentaire + aurevoir
 * greet
   - utter_greet
 * pension_alimentaire
@@ -137,13 +132,12 @@
 * affirm
   - utter_aurevoir
 
-## demande pension alimentaire
+## pension alimentaire
 * pension_alimentaire
   - utter_pension_alimentaire
 
-#################      AUTRES      #################
 
-## demande_meteo
+## greet + meteo + aurevoir
 * greet
   - utter_greet
 * meteo
@@ -155,7 +149,7 @@
 * jesuisunrobot
   - utter_jesuisunrobot
 
-## au revoir
+## aurevoir
 * aurevoir
   - utter_aurevoir
   
@@ -171,10 +165,24 @@
 * homepage
   - utter_homepage
 
-## ask_homepage
+## greet + homepage
 * greet
   - utter_greet
 * homepage
   - utter_homepage
 * affirm
   - utter_aurevoir
+  
+## out of scope
+* out_of_scope
+  - utter_out_of_scope
+
+## greet + soquij
+* greet
+  - utter_greet
+* soquij
+  - utter_soquij
+  
+## soquij
+* soquij
+  - utter_soquij

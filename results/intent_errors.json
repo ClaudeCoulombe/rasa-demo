@@ -1,0 +1,194 @@
+[
+  {
+    "text": "Quelles sont les étapes pour entamer une procédure judiciaire?",
+    "intent": "tribunal",
+    "intent_prediction": {
+      "name": "fonctionnement_de_la_cour",
+      "confidence": 0.37144753336906433
+    }
+  },
+  {
+    "text": "Quelles sont les clés pour bien choisir son avocat ?",
+    "intent": "tribunal",
+    "intent_prediction": {
+      "name": "procedures_judiciares",
+      "confidence": 0.35561999678611755
+    }
+  },
+  {
+    "text": "Comment l’avocat facture-t-il ses services ?",
+    "intent": "tribunal",
+    "intent_prediction": {
+      "name": "procedures_judiciares",
+      "confidence": 0.4744001030921936
+    }
+  },
+  {
+    "text": "Comment fontionne la cour de justice au Québec ?",
+    "intent": "fonctionnement_de_la_cour",
+    "intent_prediction": {
+      "name": "tribunal",
+      "confidence": 0.2876531481742859
+    }
+  },
+  {
+    "text": "Comment être représenté par un avocat?",
+    "intent": "fonctionnement_de_la_cour",
+    "intent_prediction": {
+      "name": "tribunal",
+      "confidence": 0.3047214150428772
+    }
+  },
+  {
+    "text": "Quelles sont les procédures judiciaires pour conjoint de fait ?",
+    "intent": "fonctionnement_de_la_cour",
+    "intent_prediction": {
+      "name": "tribunal",
+      "confidence": 0.31252357363700867
+    }
+  },
+  {
+    "text": "questions-réponses sur la langue dans le milieu juridique",
+    "intent": "fonctionnement_de_la_cour",
+    "intent_prediction": {
+      "name": "tribunal",
+      "confidence": 0.32109782099723816
+    }
+  },
+  {
+    "text": "Quelles sont les clés pour bien choisir son avocat ?",
+    "intent": "fonctionnement_de_la_cour",
+    "intent_prediction": {
+      "name": "procedures_judiciares",
+      "confidence": 0.35561999678611755
+    }
+  },
+  {
+    "text": "Comment on agir seule sans avocat?",
+    "intent": "avec_ou_sans_avocat_a_la_cour",
+    "intent_prediction": {
+      "name": "tribunal",
+      "confidence": 0.25154197216033936
+    }
+  },
+  {
+    "text": "Quelles sont les clés pour bien choisir son avocat ?",
+    "intent": "avec_ou_sans_avocat_a_la_cour",
+    "intent_prediction": {
+      "name": "procedures_judiciares",
+      "confidence": 0.35561999678611755
+    }
+  },
+  {
+    "text": "Comment l’avocat facture-t-il ses services ?",
+    "intent": "avec_ou_sans_avocat_a_la_cour",
+    "intent_prediction": {
+      "name": "procedures_judiciares",
+      "confidence": 0.4744001030921936
+    }
+  },
+  {
+    "text": "Comment être représenté par un avocat?",
+    "intent": "avec_ou_sans_avocat_a_la_cour",
+    "intent_prediction": {
+      "name": "tribunal",
+      "confidence": 0.3047214150428772
+    }
+  },
+  {
+    "text": "Comment fontionne la cour de justice au Québec?",
+    "intent": "procedures_judiciares",
+    "intent_prediction": {
+      "name": "tribunal",
+      "confidence": 0.2876531481742859
+    }
+  },
+  {
+    "text": "Quelles sont les étapes pour entamer une procédure judiciaire?",
+    "intent": "procedures_judiciares",
+    "intent_prediction": {
+      "name": "fonctionnement_de_la_cour",
+      "confidence": 0.37144753336906433
+    }
+  },
+  {
+    "text": "Quelles sont les procédures judiciaires pour conjoint de fait?",
+    "intent": "procedures_judiciares",
+    "intent_prediction": {
+      "name": "tribunal",
+      "confidence": 0.31252357363700867
+    }
+  },
+  {
+    "text": "usage du domicile familial",
+    "intent": "domicile_biens_argent",
+    "intent_prediction": {
+      "name": "domicile",
+      "confidence": 0.5361025929450989
+    }
+  },
+  {
+    "text": "partage des biens et des dettes",
+    "intent": "domicile_biens_argent",
+    "intent_prediction": {
+      "name": "domicile",
+      "confidence": 0.7517344951629639
+    }
+  },
+  {
+    "text": "Que peut-on emporter lorsqu’on quitte le domicile familial ?",
+    "intent": "domicile_biens_argent",
+    "intent_prediction": {
+      "name": "domicile",
+      "confidence": 0.8144339323043823
+    }
+  },
+  {
+    "text": "Récupérer ses meubles et effets personnels laissés dans le domicile",
+    "intent": "domicile_biens_argent",
+    "intent_prediction": {
+      "name": "domicile",
+      "confidence": 0.3408168852329254
+    }
+  },
+  {
+    "text": "Qui peut rester dans le domicile familial ?",
+    "intent": "domicile_biens_argent",
+    "intent_prediction": {
+      "name": "domicile",
+      "confidence": 0.7223206758499146
+    }
+  },
+  {
+    "text": "Comment séparer les biens lors d'une séparation ?",
+    "intent": "domicile",
+    "intent_prediction": {
+      "name": "maintien_du_niveau_de_vie",
+      "confidence": 0.6172589659690857
+    }
+  },
+  {
+    "text": "Cartes de crédit communes : quels sont vos droits en cas de séparation ?",
+    "intent": "sante_education_religion_voyage",
+    "intent_prediction": {
+      "name": "maintien_du_niveau_de_vie",
+      "confidence": 0.580355167388916
+    }
+  },
+  {
+    "text": "Cartes de crédit communes : quels sont vos droits en cas de séparation ?",
+    "intent": "pension_alimentaire",
+    "intent_prediction": {
+      "name": "maintien_du_niveau_de_vie",
+      "confidence": 0.580355167388916
+    }
+  },
+  {
+    "text": "merci",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "aurevoir",
+      "confidence": 0.6198060512542725
+    }
+  }
+]
