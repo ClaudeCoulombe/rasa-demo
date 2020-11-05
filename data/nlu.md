@@ -225,18 +225,3 @@
 - soquij
 - pourquoi soquij
 
-
-## synonym:avec
-- avocat
-
-## synonym:conjoitns
-- conjoints
-
-## synonym:maries
-- mariés
-- conjoint de fait
-
-## synonym:sans
-- sans avocat
-- seul
-
