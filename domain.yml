@@ -72,12 +72,14 @@ responses:
     text: Merci pour votre question. Vous pouvez trouver des informations concernant
       votre demande [en cliquant ici](https://juridiqc.gouv.qc.ca/separation-et-divorce/domicile-biens-argent/domicile-familial/)
   utter_domicile:
-  - text: Vous pouvez trouver des informations concernant le Domicile ici
+  - text: Vous pouvez trouver des informations concernant les question d'usage du
+      [domicile et les meubles ici](https://juridiqc.gouv.qc.ca/separation-et-divorce/domicile-biens-argent/domicile/)
   utter_biens_et_argent:
-  - text: ous pouvez trouver des informations concernant les Biens et Aergent ici
+  - text: Vous pouvez trouver des informations concernant les questions des [biens
+      et les finances ici](https://juridiqc.gouv.qc.ca/separation-et-divorce/domicile-biens-argent/biens-et-argent/)
   utter_maintien_du_niveau_de_vie:
-  - text: Vous pouvez trouver des informations concernant le maintien du niveau de
-      vie ici
+  - text: Vous pouvez trouver des informations concernant les questions du [maintien
+      du niveau de vie ici](https://juridiqc.gouv.qc.ca/separation-et-divorce/domicile-biens-argent/maintien-du-niveau-de-vie/)
   utter_enfants:
   - buttons:
     - payload: /garde
@@ -89,11 +91,11 @@ responses:
     text: Merci pour votre question. Vous pouvez trouver des informations concernat
       les enfants en cliquant sur https://juridiqc.gouv.qc.ca/separation-et-divorce/enfants/
   utter_garde:
-  - text: Vous pouvez trouver des informations concernant la Garde
+  - text: Vous pouvez trouver des informations concernant les questions de la [garde des enfants](https://juridiqc.gouv.qc.ca/separation-et-divorce/enfants/garde/)
   utter_sante_education_religion_voyage:
-  - text: Information sur la santé, éducation, réligion et voyages ici
+  - text: Vous trouverez des informations concernant les questions sur la [santé, éducation, réligion et voyages ici](https://juridiqc.gouv.qc.ca/separation-et-divorce/enfants/sante-education-religion-voyage/)
   utter_pension_alimentaire:
-  - text: Vous pouvez trouver des informations sur la pension alimentaire ici
+  - text: Vous trouverez les informations concernant les questuions sur la [pension alimentaire ici](https://juridiqc.gouv.qc.ca/separation-et-divorce/enfants/pension-alimentaire/)
   utter_greet:
   - text: Allo! Je suis le super chatbot de la [SOQUIJ](https://soquij.qc.ca/) ! :)
       Comment je peux vous aider ?
@@ -132,4 +134,4 @@ responses:
     - payload: /domicile
       title: Domicile, biens et argent
     text: Désolé, je ne suis pas sur d'avoir compris. Vous voulez avoir plus d'information
-      concernant quel sujet..
+      concernant quel sujet ?
